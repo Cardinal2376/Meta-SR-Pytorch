@@ -1,7 +1,7 @@
 function generate_LR_metasr_X1_X4()
 %% settings
-path_save = './B100';
-path_src = './B100/HR';
+path_save = '/mnt/lustre/caozhijie/workspace/data/sr/DIV2K';
+path_src = '/mnt/lustre/caozhijie/workspace/data/sr/DIV2K/HR';
 ext               =  {'*.png'};
 filepaths           =  [];
 for i = 1 : length(ext)

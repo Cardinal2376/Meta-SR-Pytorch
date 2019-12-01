@@ -19,13 +19,13 @@ parser.add_argument('--seed', type=int, default=1,
                     help='random seed')
 
 # Data specifications
-parser.add_argument('--dir_data', type=str, default='./',
+parser.add_argument('--dir_data', type=str, default='/mnt/lustre/caozhijie/workspace/data/sr',
                     help='dataset directory')
 parser.add_argument('--dir_demo', type=str, default='../test',
                     help='demo image directory')
 parser.add_argument('--data_train', type=str, default='DIV2K',
                     help='train dataset name')
-parser.add_argument('--data_test', type=str, default='Set5',
+parser.add_argument('--data_test', type=str, default='DIV2K',
                     help='test dataset name')
 parser.add_argument('--data_range', type=str, default='1-800/801-810',
                     help='train/test data range')
@@ -154,7 +154,8 @@ template.set_template(args)
 if args.scale=='':
     import numpy as np
     #args.scale = np.linspace(1.1,4,30)
-    args.scale = [1.1,1.2,1.3,1.4,1.5,1.6,1.7,1.8,1.9,2.0,2.1,2.2,2.3,2.4,2.5,2.6,2.7,2.8,2.9,3.0,3.1,3.2,3.3,3.4,3.5,3.6,3.7,3.8,3.9,4.0]
+    # args.scale = [1.1,1.2,1.3,1.4,1.5,1.6,1.7,1.8,1.9,2.0,2.1,2.2,2.3,2.4,2.5,2.6,2.7,2.8,2.9,3.0,3.1,3.2,3.3,3.4,3.5,3.6,3.7,3.8,3.9,4.0]
+    args.scale = [1.1,1.2]
     #print(args.scale)
 else:
     args.scale = list(map(lambda x: float(x), args.scale.split('+')))
