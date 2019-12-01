@@ -13,7 +13,7 @@ class Data:
                 args,
                 trainset,
                 batch_size=args.batch_size,
-                shuffle=True,
+                shuffle=False,
                 pin_memory=not args.cpu
             )
 

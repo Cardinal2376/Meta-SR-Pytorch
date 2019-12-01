@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2326d5fe-aa8e-48cb-8051-02902acba122" name="Default" comment="" />
+    <list default="true" id="2326d5fe-aa8e-48cb-8051-02902acba122" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/data/__init__.py" afterPath="$PROJECT_DIR$/data/__init__.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="common.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/common.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="176">
+              <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="19" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -59,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="44" />
+            <state relative-caret-position="265">
+              <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -113,6 +115,7 @@
         <option value="$PROJECT_DIR$/option.py" />
         <option value="$PROJECT_DIR$/trainer.py" />
         <option value="$PROJECT_DIR$/data/common.py" />
+        <option value="$PROJECT_DIR$/data/__init__.py" />
       </list>
     </option>
   </component>
@@ -280,16 +283,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -340,10 +333,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/common.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="176">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="19" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
