@@ -7,6 +7,7 @@ import torch
 from torchvision import transforms
 
 def get_patch(*args, patch_size=96, scale=1, multi_scale=False):
+    print(str(args))
     ih, iw = args[0].shape[:2]
 
     multi_scale = True
