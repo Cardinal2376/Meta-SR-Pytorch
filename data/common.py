@@ -7,8 +7,11 @@ import torch
 from torchvision import transforms
 
 def get_patch(*args, patch_size=96, scale=1, multi_scale=False):
-    ih, iw = args[0].shape[:2]
-
+    try:
+        ih, iw = args[0].shape[:2]
+    except Exception as e:
+        print("error ", e)
+        print(str(args))
     multi_scale = True
     if multi_scale:
         tp = int(scale* patch_size)
