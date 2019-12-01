@@ -149,6 +149,7 @@ class SRData(data.Dataset):
 
     def __getitem__(self, idx):
         lr, hr, filename = self._load_file(idx)
+        print("idx = {}, lr.shape={}, hr.shape={}".format(idx, lr.shape, hr.shape))
         lr, hr = self.get_patch(lr, hr)
         lr, hr = common.set_channel(lr, hr, n_channels=self.args.n_colors)
         lr_tensor, hr_tensor = common.np2Tensor(
