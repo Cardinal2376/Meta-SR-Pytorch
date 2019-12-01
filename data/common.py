@@ -9,11 +9,11 @@ from torchvision import transforms
 def get_patch(*args, patch_size=96, scale=1, multi_scale=False):
     try:
         ih, iw = args[0].shape[:2]
-        print("ih", ih)
-        print("iw", iw)
     except Exception as e:
         print("error ", e)
         print(str(args))
+        ih = 1280
+        iw = 1700
     multi_scale = True
     if multi_scale:
         tp = int(scale* patch_size)
